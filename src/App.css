@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+    color: aliceblue;
+    background-color: black;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card{
+    background-color: rgb(37, 37, 36);
+    color: rgb(169, 183, 183);
+    border-color: rgb(105, 104, 103);
+   
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card:hover{
+    color: rgb(254, 255, 255);
+    background-color: rgb(5, 5, 5);
 }
-
-.App-link {
-  color: #61dafb;
+.button{
+    width:100%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.headline{
+    margin-top:100px;
+    margin-bottom:50px;
+    font-family: "Bebas Neue", sans-serif;
+   letter-spacing:1px;
+   word-spacing:10px;
+}
+.createdMe{
+    font-size: larger;
+    color: rgb(105, 112, 118);
+    margin-top:50px;
+}
+.author{
+    margin-top:14px;
+    font-size:12px;
+}
+.badge{
+    background-color:rgb(192, 48, 48) ;
+    border-radius:40px;
 }
